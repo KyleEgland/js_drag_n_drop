@@ -1,0 +1,46 @@
+body {
+  background: darksalmon;
+}
+
+.fill {
+  /* fill is the "dragable" object */
+  /* First, we give it something to display */
+  background-image: url('http://source.unsplash.com/random/150x150');
+  /* Change the cursor to point when over the fill object */
+  cursor: pointer;
+  /* set the hight/width to the height/width of what we're retrieving */
+  height: 150px;
+  /* add padding to left */
+  left: 5px;
+  position: relative;
+  /* add padding top*/
+  top: 5px;
+  width: 150px;
+}
+
+.empty {
+  background-color: white;
+  border-color: salmon;
+  border-style: solid;
+  border-width: 3px;
+  /* Give the divs block properties but inline so they're not stacked */
+  display: inline-block;
+  /* making these 10 px bigger than fill to have some visual spacing */
+  height: 160px;
+  /* Putting margin of 10 between each box */
+  margin: 10px;
+  width: 160px;
+}
+
+.hold {
+  border: solid #ccc 4px;
+}
+
+.hovered {
+  background: #f4f4f4;
+  border-style: dashed;
+}
+
+.invisible {
+  display: none;
+}

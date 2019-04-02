@@ -1,0 +1,58 @@
+/* style.css */
+/* Javascript Drag-n-Drop Example */
+body {
+  background: #292929;
+  color: #fff;
+}
+
+.wrapper {
+  background: #8f8f8f;
+  border: 2px solid #187763;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  margin: 0 auto;
+  max-width: 80vw;
+  padding: 1em;
+}
+
+.wrapper > div {
+  background: #424242;
+  display: block;
+  margin: 0 auto;
+  max-width: 95%;
+  min-width: 90%;
+  padding: 1em;
+}
+
+.add-new {
+  cursor: pointer;
+  text-align: center;
+}
+
+.handle {
+  cursor: pointer;
+  padding-right: 1em;
+}
+
+/* ------------- */
+/* Form handling */
+/* ------------- */
+.form-button {
+  float: right;
+  margin: 0 auto;
+  width: 13%;
+}
+
+.form-text {
+  margin: 0 auto;
+  width: 85%;
+}
+
+/* -------------- */
+/* Alert handling */
+/* -------------- */
+.alert {
+  text-align: center;
+  width: 100%;
+}
